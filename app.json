@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "automationid",
+    "slug": "automationid",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icons/foncia-icon.png",
+    "splash": {
+      "image": "./src/assets/logos/foncia-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dramanek.automationid"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icons/foncia-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/icons/foncia-icon.png"
+    }
+  }
+}
